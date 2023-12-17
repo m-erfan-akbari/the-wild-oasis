@@ -7,6 +7,8 @@ import Settings from "./pages/Settings";
 import Account from "./pages/Account";
 import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
+import Booking from "./pages/Booking";
+import CheckIn from "./pages/CheckIn";
 
 // other components
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
@@ -15,8 +17,6 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import GlobalStyles from "./styles/GlobalStyles";
 import AppLayout from "./ui/AppLayout";
 import { Toaster } from "react-hot-toast";
-import Booking from "./pages/Booking";
-import CheckIn from "./pages/CheckIn";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import { DarkModeProvider } from "./context/DarkModeContext";
 
