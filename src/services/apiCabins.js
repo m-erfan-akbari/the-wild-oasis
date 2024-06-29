@@ -36,7 +36,7 @@ export async function createEditCabin(newCabin, id) {
 
   if (error) {
     console.error(error);
-    throw new Error("Cabin could not be created!");
+    throw new Error("Cabin could not be created(or Edited)!");
   }
 
   // 2.Upload the image
