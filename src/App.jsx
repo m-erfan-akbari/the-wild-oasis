@@ -8,7 +8,7 @@ import Account from "./pages/Account";
 import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import Booking from "./pages/Booking";
-import CheckIn from "./pages/CheckIn";
+import CheckIn from "./pages/Checkin";
 
 // other components
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
